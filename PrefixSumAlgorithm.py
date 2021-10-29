@@ -14,16 +14,14 @@ You started with a two-dimensional array as illustrated in the following:
 
 **This is a conceptual description, may not identically matched the descriptions on HackerRank.
 
-							input queries
- 1	2  3  4  5				  a  b  k
+			   input queries
+ 1  2  3  4  5		      a  b  k
 [0, 0, 0, 0, 0, ..., n]      [1, 5, 3]
 [3, 3, 3, 3, 3, ..., n]      [4, 5, 2]
-[3, 3, 3, 7, 7, ..., n]
-
+[3, 3, 3, 5, 5, ..., n]
 
 In the illustration above, there are 'n' number of columns in the array table, 
 number of rows is 3 (1 default row of [0, 0, 0, 0, ...., n] + 2 rows from the input queries).
-Based on the array table above, the max value is 7.
 
 For the method declaration of "def arrayManipulation(n, queries)", where "n" is number of columns, and "queries" is an array with 3 values a, b, and k:
  a - is the starting index of the array, where 1 <= a <= n.
