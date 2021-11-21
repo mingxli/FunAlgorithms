@@ -35,7 +35,7 @@ by "JAVAAID - Coding Interview Preparation", it's a 29 minutes video, but very i
 '''
 
 def arrayManipulation(n, queries):
-	array = [0]*(n+1)
+	array = [0]*(n+1) # Declare array of 0s in the n+1 length
 	
 	for query in queries:
 		a = query[0]
